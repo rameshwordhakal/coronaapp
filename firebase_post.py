@@ -3,8 +3,9 @@ import firebase_admin
 from firebase_admin import credentials, firestore
 import datetime, pytz
 from mar29 import countries
+from os import environ
 
-cred = credentials.Certificate("../covid-19-firebase-adminsdk.json")
+cred = credentials.Certificate(environ.get('FIREBASE_TOKEN'))
 firebase_admin.initialize_app(cred)
 
 db = firestore.client()
