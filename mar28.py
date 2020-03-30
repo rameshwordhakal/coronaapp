@@ -1,0 +1,1307 @@
+countries = [{
+  'country': 'USA',
+  'total_cases': 112533,
+  'new_cases': 8407,
+  'total_deaths': 1876,
+  'new_deaths': 180,
+  'total_recovered': 3219,
+  'active_cases': 107438,
+  'serious_cases': 2666
+}, {
+  'country': 'Italy',
+  'total_cases': 86498,
+  'total_deaths': 9134,
+  'total_recovered': 10950,
+  'active_cases': 66414,
+  'serious_cases': 3732
+}, {
+  'country': 'Spain',
+  'total_cases': 72248,
+  'new_cases': 6529,
+  'total_deaths': 5812,
+  'new_deaths': 674,
+  'total_recovered': 12285,
+  'active_cases': 54151,
+  'serious_cases': 4165
+}, {
+  'country': 'Germany',
+  'total_cases': 53340,
+  'new_cases': 2469,
+  'total_deaths': 399,
+  'new_deaths': 48,
+  'total_recovered': 6658,
+  'active_cases': 46283,
+  'serious_cases': 1581
+}, {
+  'country': 'Iran',
+  'total_cases': 35408,
+  'new_cases': 3076,
+  'total_deaths': 2517,
+  'new_deaths': 139,
+  'total_recovered': 11679,
+  'active_cases': 21212,
+  'serious_cases': 3206
+}, {
+  'country': 'France',
+  'total_cases': 32964,
+  'total_deaths': 1995,
+  'total_recovered': 5700,
+  'active_cases': 25269,
+  'serious_cases': 3787
+}, {
+  'country': 'UK',
+  'total_cases': 17089,
+  'new_cases': 2546,
+  'total_deaths': 1019,
+  'new_deaths': 260,
+  'total_recovered': 135,
+  'active_cases': 15935,
+  'serious_cases': 163
+}, {
+  'country': 'Switzerland',
+  'total_cases': 13377,
+  'new_cases': 449,
+  'total_deaths': 242,
+  'new_deaths': 11,
+  'total_recovered': 1530,
+  'active_cases': 11605,
+  'serious_cases': 280
+}, {
+  'country': 'Netherlands',
+  'total_cases': 9762,
+  'new_cases': 1159,
+  'total_deaths': 639,
+  'new_deaths': 93,
+  'total_recovered': 3,
+  'active_cases': 9120,
+  'serious_cases': 761
+}, {
+  'country': 'S. Korea',
+  'total_cases': 9478,
+  'new_cases': 146,
+  'total_deaths': 144,
+  'new_deaths': 5,
+  'total_recovered': 4811,
+  'active_cases': 4523,
+  'serious_cases': 59
+}, {
+  'country': 'Belgium',
+  'total_cases': 9134,
+  'new_cases': 1850,
+  'total_deaths': 353,
+  'new_deaths': 64,
+  'total_recovered': 1063,
+  'active_cases': 7718,
+  'serious_cases': 789
+}, {
+  'country': 'Austria',
+  'total_cases': 8030,
+  'new_cases': 333,
+  'total_deaths': 68,
+  'new_deaths': 10,
+  'total_recovered': 225,
+  'active_cases': 7737,
+  'serious_cases': 128
+}, {
+  'country': 'Turkey',
+  'total_cases': 5698,
+  'total_deaths': 92,
+  'total_recovered': 42,
+  'active_cases': 5564,
+  'serious_cases': 241
+}, {
+  'country': 'Portugal',
+  'total_cases': 5170,
+  'new_cases': 902,
+  'total_deaths': 100,
+  'new_deaths': 24,
+  'total_recovered': 43,
+  'active_cases': 5027,
+  'serious_cases': 89
+}, {
+  'country': 'Canada',
+  'total_cases': 4782,
+  'new_cases': 25,
+  'total_deaths': 55,
+  'total_recovered': 354,
+  'active_cases': 4373,
+  'serious_cases': 120
+}, {
+  'country': 'Norway',
+  'total_cases': 3973,
+  'new_cases': 202,
+  'total_deaths': 20,
+  'new_deaths': 1,
+  'total_recovered': 7,
+  'active_cases': 3946,
+  'serious_cases': 76
+}, {
+  'country': 'Australia',
+  'total_cases': 3635,
+  'new_cases': 257,
+  'total_deaths': 14,
+  'new_deaths': 1,
+  'total_recovered': 170,
+  'active_cases': 3451,
+  'serious_cases': 23
+}, {
+  'country': 'Brazil',
+  'total_cases': 3477,
+  'new_cases': 60,
+  'total_deaths': 93,
+  'new_deaths': 1,
+  'total_recovered': 6,
+  'active_cases': 3378,
+  'serious_cases': 296
+}, {
+  'country': 'Israel',
+  'total_cases': 3460,
+  'new_cases': 425,
+  'total_deaths': 12,
+  'total_recovered': 89,
+  'active_cases': 3359,
+  'serious_cases': 50
+}, {
+  'country': 'Sweden',
+  'total_cases': 3069,
+  'total_deaths': 105,
+  'total_recovered': 16,
+  'active_cases': 2948,
+  'serious_cases': 214
+}, {
+  'country': 'Czechia',
+  'total_cases': 2541,
+  'new_cases': 262,
+  'total_deaths': 9,
+  'total_recovered': 11,
+  'active_cases': 2521,
+  'serious_cases': 34
+}, {
+  'country': 'Malaysia',
+  'total_cases': 2320,
+  'new_cases': 159,
+  'total_deaths': 27,
+  'new_deaths': 1,
+  'total_recovered': 320,
+  'active_cases': 1973,
+  'serious_cases': 54
+}, {
+  'country': 'Denmark',
+  'total_cases': 2201,
+  'new_cases': 155,
+  'total_deaths': 65,
+  'new_deaths': 13,
+  'total_recovered': 1,
+  'active_cases': 2135,
+  'serious_cases': 109
+}, {
+  'country': 'Ireland',
+  'total_cases': 2121,
+  'total_deaths': 22,
+  'total_recovered': 5,
+  'active_cases': 2094,
+  'serious_cases': 59
+}, {
+  'country': 'Chile',
+  'total_cases': 1909,
+  'new_cases': 299,
+  'total_deaths': 6,
+  'new_deaths': 1,
+  'total_recovered': 61,
+  'active_cases': 1842,
+  'serious_cases': 7
+}, {
+  'country': 'Ecuador',
+  'total_cases': 1823,
+  'new_cases': 196,
+  'total_deaths': 48,
+  'new_deaths': 7,
+  'total_recovered': 3,
+  'active_cases': 1772,
+  'serious_cases': 58
+}, {
+  'country': 'Luxembourg',
+  'total_cases': 1605,
+  'total_deaths': 15,
+  'total_recovered': 40,
+  'active_cases': 1550,
+  'serious_cases': 25
+}, {
+  'country': 'Japan',
+  'total_cases': 1499,
+  'total_deaths': 49,
+  'total_recovered': 404,
+  'active_cases': 1046,
+  'serious_cases': 56
+}, {
+  'country': 'Poland',
+  'total_cases': 1481,
+  'new_cases': 92,
+  'total_deaths': 17,
+  'new_deaths': 1,
+  'total_recovered': 7,
+  'active_cases': 1457,
+  'serious_cases': 3
+}, {
+  'country': 'Romania',
+  'total_cases': 1452,
+  'new_cases': 160,
+  'total_deaths': 30,
+  'new_deaths': 4,
+  'total_recovered': 139,
+  'active_cases': 1283,
+  'serious_cases': 34
+}, {
+  'country': 'Pakistan',
+  'total_cases': 1420,
+  'new_cases': 47,
+  'total_deaths': 12,
+  'new_deaths': 1,
+  'total_recovered': 29,
+  'active_cases': 1379,
+  'serious_cases': 7
+}, {
+  'country': 'Russia',
+  'total_cases': 1264,
+  'new_cases': 228,
+  'total_deaths': 4,
+  'total_recovered': 49,
+  'active_cases': 1211,
+  'serious_cases': 8
+}, {
+  'country': 'Thailand',
+  'total_cases': 1245,
+  'new_cases': 109,
+  'total_deaths': 6,
+  'new_deaths': 1,
+  'total_recovered': 97,
+  'active_cases': 1142,
+  'serious_cases': 11
+}, {
+  'country': 'Saudi Arabia',
+  'total_cases': 1203,
+  'new_cases': 99,
+  'total_deaths': 4,
+  'new_deaths': 1,
+  'total_recovered': 37,
+  'active_cases': 1162,
+  'serious_cases': 6
+}, {
+  'country': 'South Africa',
+  'total_cases': 1170,
+  'total_deaths': 1,
+  'total_recovered': 31,
+  'active_cases': 1138,
+  'serious_cases': 7
+}, {
+  'country': 'Finland',
+  'total_cases': 1167,
+  'new_cases': 126,
+  'total_deaths': 9,
+  'new_deaths': 2,
+  'total_recovered': 10,
+  'active_cases': 1148,
+  'serious_cases': 32
+}, {
+  'country': 'Indonesia',
+  'total_cases': 1155,
+  'new_cases': 109,
+  'total_deaths': 102,
+  'new_deaths': 15,
+  'total_recovered': 59,
+  'active_cases': 994
+}, {
+  'country': 'Philippines',
+  'total_cases': 1075,
+  'new_cases': 272,
+  'total_deaths': 68,
+  'new_deaths': 14,
+  'total_recovered': 35,
+  'active_cases': 972,
+  'serious_cases': 1
+}, {
+  'country': 'Greece',
+  'total_cases': 1061,
+  'new_cases': 95,
+  'total_deaths': 32,
+  'new_deaths': 4,
+  'total_recovered': 52,
+  'active_cases': 977,
+  'serious_cases': 66
+}, {
+  'country': 'Iceland',
+  'total_cases': 963,
+  'new_cases': 73,
+  'total_deaths': 2,
+  'total_recovered': 97,
+  'active_cases': 864,
+  'serious_cases': 18
+}, {
+  'country': 'India',
+  'total_cases': 933,
+  'new_cases': 46,
+  'total_deaths': 20,
+  'total_recovered': 84,
+  'active_cases': 829
+}, {
+  'country': 'Singapore',
+  'total_cases': 802,
+  'new_cases': 70,
+  'total_deaths': 2,
+  'total_recovered': 198,
+  'active_cases': 602,
+  'serious_cases': 19
+}, {
+  'country': 'Panama',
+  'total_cases': 786,
+  'total_deaths': 14,
+  'total_recovered': 2,
+  'active_cases': 770,
+  'serious_cases': 20
+}, {
+  'country': 'Dominican Republic',
+  'total_cases': 719,
+  'new_cases': 138,
+  'total_deaths': 28,
+  'new_deaths': 8,
+  'total_recovered': 3,
+  'active_cases': 688
+}, {
+  'country': 'Mexico',
+  'total_cases': 717,
+  'new_cases': 132,
+  'total_deaths': 12,
+  'new_deaths': 4,
+  'total_recovered': 4,
+  'active_cases': 701,
+  'serious_cases': 1
+}, {
+  'country': 'Diamond Princess',
+  'total_cases': 712,
+  'total_deaths': 10,
+  'total_recovered': 597,
+  'active_cases': 105,
+  'serious_cases': 15
+}, {
+  'country': 'Argentina',
+  'total_cases': 690,
+  'new_cases': 101,
+  'total_deaths': 17,
+  'new_deaths': 4,
+  'total_recovered': 72,
+  'active_cases': 601
+}, {
+  'country': 'Slovenia',
+  'total_cases': 684,
+  'new_cases': 52,
+  'total_deaths': 9,
+  'total_recovered': 10,
+  'active_cases': 665,
+  'serious_cases': 25
+}, {
+  'country': 'Serbia',
+  'total_cases': 659,
+  'new_cases': 131,
+  'total_deaths': 10,
+  'new_deaths': 2,
+  'total_recovered': 42,
+  'active_cases': 607,
+  'serious_cases': 25
+}, {
+  'country': 'Croatia',
+  'total_cases': 657,
+  'new_cases': 71,
+  'total_deaths': 5,
+  'new_deaths': 2,
+  'total_recovered': 45,
+  'active_cases': 607,
+  'serious_cases': 14
+}, {
+  'country': 'Estonia',
+  'total_cases': 645,
+  'new_cases': 70,
+  'total_deaths': 1,
+  'total_recovered': 20,
+  'active_cases': 624,
+  'serious_cases': 10
+}, {
+  'country': 'Peru',
+  'total_cases': 635,
+  'total_deaths': 11,
+  'total_recovered': 16,
+  'active_cases': 608,
+  'serious_cases': 21
+}, {
+  'country': 'Qatar',
+  'total_cases': 562,
+  'total_recovered': 43,
+  'active_cases': 519,
+  'serious_cases': 6
+}, {
+  'country': 'Hong Kong',
+  'total_cases': 560,
+  'new_cases': 41,
+  'total_deaths': 4,
+  'total_recovered': 112,
+  'active_cases': 444,
+  'serious_cases': 5
+}, {
+  'country': 'Colombia',
+  'total_cases': 539,
+  'total_deaths': 6,
+  'total_recovered': 10,
+  'active_cases': 523
+}, {
+  'country': 'Egypt',
+  'total_cases': 536,
+  'total_deaths': 30,
+  'total_recovered': 116,
+  'active_cases': 390
+}, {
+  'country': 'Iraq',
+  'total_cases': 506,
+  'new_cases': 48,
+  'total_deaths': 42,
+  'new_deaths': 2,
+  'total_recovered': 131,
+  'active_cases': 333
+}, {
+  'country': 'Bahrain',
+  'total_cases': 476,
+  'new_cases': 10,
+  'total_deaths': 4,
+  'total_recovered': 265,
+  'active_cases': 207,
+  'serious_cases': 1
+}, {
+  'country': 'UAE',
+  'total_cases': 468,
+  'new_cases': 63,
+  'total_deaths': 2,
+  'total_recovered': 52,
+  'active_cases': 414,
+  'serious_cases': 2
+}, {
+  'country': 'Algeria',
+  'total_cases': 454,
+  'new_cases': 45,
+  'total_deaths': 29,
+  'new_deaths': 3,
+  'total_recovered': 29,
+  'active_cases': 396
+}, {
+  'country': 'New Zealand',
+  'total_cases': 451,
+  'new_cases': 83,
+  'total_recovered': 50,
+  'active_cases': 401,
+  'serious_cases': 2
+}, {
+  'country': 'Lebanon',
+  'total_cases': 412,
+  'new_cases': 21,
+  'total_deaths': 8,
+  'total_recovered': 27,
+  'active_cases': 377,
+  'serious_cases': 3
+}, {
+  'country': 'Lithuania',
+  'total_cases': 382,
+  'new_cases': 24,
+  'total_deaths': 5,
+  'total_recovered': 1,
+  'active_cases': 376,
+  'serious_cases': 2
+}, {
+  'country': 'Armenia',
+  'total_cases': 372,
+  'new_cases': 43,
+  'total_deaths': 1,
+  'total_recovered': 28,
+  'active_cases': 343,
+  'serious_cases': 6
+}, {
+  'country': 'Morocco',
+  'total_cases': 358,
+  'new_cases': 13,
+  'total_deaths': 23,
+  'total_recovered': 11,
+  'active_cases': 324,
+  'serious_cases': 1
+}, {
+  'country': 'Hungary',
+  'total_cases': 343,
+  'new_cases': 43,
+  'total_deaths': 11,
+  'new_deaths': 1,
+  'total_recovered': 34,
+  'active_cases': 298,
+  'serious_cases': 6
+}, {
+  'country': 'Bulgaria',
+  'total_cases': 313,
+  'new_cases': 20,
+  'total_deaths': 6,
+  'new_deaths': 3,
+  'total_recovered': 11,
+  'active_cases': 296,
+  'serious_cases': 8
+}, {
+  'country': 'Ukraine',
+  'total_cases': 311,
+  'new_cases': 1,
+  'total_deaths': 8,
+  'new_deaths': 3,
+  'total_recovered': 5,
+  'active_cases': 298
+}, {
+  'country': 'Andorra',
+  'total_cases': 308,
+  'new_cases': 41,
+  'total_deaths': 3,
+  'total_recovered': 1,
+  'active_cases': 304,
+  'serious_cases': 10
+}, {
+  'country': 'Latvia',
+  'total_cases': 305,
+  'new_cases': 25,
+  'total_recovered': 1,
+  'active_cases': 304,
+  'serious_cases': 3
+}, {
+  'country': 'Slovakia',
+  'total_cases': 292,
+  'new_cases': 23,
+  'total_recovered': 2,
+  'active_cases': 290,
+  'serious_cases': 1
+}, {
+  'country': 'Taiwan',
+  'total_cases': 283,
+  'new_cases': 16,
+  'total_deaths': 2,
+  'total_recovered': 30,
+  'active_cases': 251
+}, {
+  'country': 'Uruguay',
+  'total_cases': 274,
+  'new_cases': 36,
+  'active_cases': 274,
+  'serious_cases': 8
+}, {
+  'country': 'Costa Rica',
+  'total_cases': 263,
+  'total_deaths': 2,
+  'total_recovered': 3,
+  'active_cases': 258,
+  'serious_cases': 5
+}, {
+  'country': 'Bosnia and Herzegovina',
+  'total_cases': 257,
+  'new_cases': 20,
+  'total_deaths': 4,
+  'total_recovered': 5,
+  'active_cases': 248,
+  'serious_cases': 1
+}, {
+  'country': 'North Macedonia',
+  'total_cases': 241,
+  'new_cases': 22,
+  'total_deaths': 4,
+  'new_deaths': 1,
+  'total_recovered': 3,
+  'active_cases': 234,
+  'serious_cases': 1
+}, {
+  'country': 'Jordan',
+  'total_cases': 235,
+  'total_deaths': 1,
+  'total_recovered': 18,
+  'active_cases': 216
+}, {
+  'country': 'Kuwait',
+  'total_cases': 235,
+  'new_cases': 10,
+  'total_recovered': 64,
+  'active_cases': 171,
+  'serious_cases': 11
+}, {
+  'country': 'Moldova',
+  'total_cases': 231,
+  'new_cases': 32,
+  'total_deaths': 2,
+  'total_recovered': 2,
+  'active_cases': 227,
+  'serious_cases': 33
+}, {
+  'country': 'Kazakhstan',
+  'total_cases': 228,
+  'new_cases': 78,
+  'total_deaths': 1,
+  'total_recovered': 16,
+  'active_cases': 211
+}, {
+  'country': 'Tunisia',
+  'total_cases': 227,
+  'total_deaths': 7,
+  'total_recovered': 2,
+  'active_cases': 218,
+  'serious_cases': 10
+}, {
+  'country': 'San Marino',
+  'total_cases': 223,
+  'total_deaths': 21,
+  'total_recovered': 6,
+  'active_cases': 196,
+  'serious_cases': 15
+}, {
+  'country': 'Burkina Faso',
+  'total_cases': 207,
+  'new_cases': 27,
+  'total_deaths': 11,
+  'new_deaths': 2,
+  'total_recovered': 21,
+  'active_cases': 175
+}, {
+  'country': 'Albania',
+  'total_cases': 197,
+  'new_cases': 11,
+  'total_deaths': 10,
+  'new_deaths': 2,
+  'total_recovered': 31,
+  'active_cases': 156,
+  'serious_cases': 3
+}, {
+  'country': 'Azerbaijan',
+  'total_cases': 182,
+  'new_cases': 17,
+  'total_deaths': 4,
+  'new_deaths': 1,
+  'total_recovered': 15,
+  'active_cases': 163,
+  'serious_cases': 23
+}, {
+  'country': 'Cyprus',
+  'total_cases': 179,
+  'new_cases': 17,
+  'total_deaths': 5,
+  'total_recovered': 15,
+  'active_cases': 159,
+  'serious_cases': 3
+}, {
+  'country': 'Vietnam',
+  'total_cases': 174,
+  'new_cases': 11,
+  'total_recovered': 21,
+  'active_cases': 153,
+  'serious_cases': 3
+}, {
+  'country': 'Faeroe Islands',
+  'total_cases': 155,
+  'new_cases': 11,
+  'total_recovered': 54,
+  'active_cases': 101,
+  'serious_cases': 2
+}, {
+  'country': 'Oman',
+  'total_cases': 152,
+  'new_cases': 21,
+  'total_recovered': 23,
+  'active_cases': 129
+}, {
+  'country': 'Malta',
+  'total_cases': 149,
+  'new_cases': 10,
+  'total_recovered': 2,
+  'active_cases': 147,
+  'serious_cases': 1
+}, {
+  'country': 'Réunion',
+  'total_cases': 145,
+  'total_recovered': 1,
+  'active_cases': 144
+}, {
+  'country': 'Ghana',
+  'total_cases': 141,
+  'new_cases': 4,
+  'total_deaths': 5,
+  'new_deaths': 1,
+  'total_recovered': 2,
+  'active_cases': 134,
+  'serious_cases': 1
+}, {
+  'country': 'Senegal',
+  'total_cases': 130,
+  'new_cases': 11,
+  'total_recovered': 18,
+  'active_cases': 112
+}, {
+  'country': 'Brunei ',
+  'total_cases': 120,
+  'new_cases': 5,
+  'total_deaths': 1,
+  'new_deaths': 1,
+  'total_recovered': 25,
+  'active_cases': 94,
+  'serious_cases': 1
+}, {
+  'country': 'Cuba',
+  'total_cases': 119,
+  'new_cases': 39,
+  'total_deaths': 3,
+  'new_deaths': 1,
+  'total_recovered': 4,
+  'active_cases': 112,
+  'serious_cases': 2
+}, {
+  'country': 'Venezuela',
+  'total_cases': 113,
+  'total_deaths': 2,
+  'total_recovered': 39,
+  'active_cases': 72,
+  'serious_cases': 2
+}, {
+  'country': 'Sri Lanka',
+  'total_cases': 113,
+  'new_cases': 7,
+  'total_deaths': 1,
+  'new_deaths': 1,
+  'total_recovered': 9,
+  'active_cases': 103,
+  'serious_cases': 5
+}, {
+  'country': 'Afghanistan',
+  'total_cases': 110,
+  'total_deaths': 4,
+  'total_recovered': 2,
+  'active_cases': 104
+}, {
+  'country': 'Uzbekistan',
+  'total_cases': 104,
+  'new_cases': 16,
+  'total_deaths': 2,
+  'new_deaths': 1,
+  'total_recovered': 5,
+  'active_cases': 97,
+  'serious_cases': 8
+}, {
+  'country': 'Mauritius',
+  'total_cases': 102,
+  'new_cases': 8,
+  'total_deaths': 2,
+  'active_cases': 100,
+  'serious_cases': 1
+}, {
+  'country': 'Ivory Coast',
+  'total_cases': 101,
+  'total_recovered': 3,
+  'active_cases': 98
+}, {
+  'country': 'Cambodia',
+  'total_cases': 99,
+  'total_recovered': 13,
+  'active_cases': 86,
+  'serious_cases': 1
+}, {
+  'country': 'Palestine',
+  'total_cases': 97,
+  'new_cases': 6,
+  'total_deaths': 1,
+  'total_recovered': 18,
+  'active_cases': 78
+}, {
+  'country': 'Guadeloupe',
+  'total_cases': 96,
+  'new_cases': 23,
+  'total_deaths': 2,
+  'new_deaths': 1,
+  'total_recovered': 17,
+  'active_cases': 77,
+  'serious_cases': 4
+}, {
+  'country': 'Honduras',
+  'total_cases': 95,
+  'new_cases': 27,
+  'total_deaths': 1,
+  'total_recovered': 3,
+  'active_cases': 91,
+  'serious_cases': 4
+}, {
+  'country': 'Belarus',
+  'total_cases': 94,
+  'total_recovered': 32,
+  'active_cases': 62,
+  'serious_cases': 2
+}, {
+  'country': 'Martinique',
+  'total_cases': 93,
+  'total_deaths': 1,
+  'active_cases': 92,
+  'serious_cases': 12
+}, {
+  'country': 'Cameroon',
+  'total_cases': 91,
+  'total_deaths': 2,
+  'total_recovered': 2,
+  'active_cases': 87
+}, {
+  'country': 'Georgia',
+  'total_cases': 90,
+  'new_cases': 7,
+  'total_recovered': 14,
+  'active_cases': 76,
+  'serious_cases': 1
+}, {
+  'country': 'Nigeria',
+  'total_cases': 89,
+  'new_cases': 19,
+  'total_deaths': 1,
+  'total_recovered': 3,
+  'active_cases': 85
+}, {
+  'country': 'Channel Islands',
+  'total_cases': 88,
+  'total_deaths': 1,
+  'active_cases': 87
+}, {
+  'country': 'Montenegro',
+  'total_cases': 82,
+  'total_deaths': 1,
+  'active_cases': 81,
+  'serious_cases': 1
+}, {
+  'country': 'Trinidad and Tobago',
+  'total_cases': 74,
+  'new_cases': 8,
+  'total_deaths': 2,
+  'total_recovered': 1,
+  'active_cases': 71
+}, {
+  'country': 'Bolivia',
+  'total_cases': 74,
+  'new_cases': 13,
+  'active_cases': 74
+}, {
+  'country': 'DRC',
+  'total_cases': 58,
+  'new_cases': 7,
+  'total_deaths': 6,
+  'new_deaths': 3,
+  'total_recovered': 2,
+  'active_cases': 50
+}, {
+  'country': 'Kyrgyzstan',
+  'total_cases': 58,
+  'active_cases': 58
+}, {
+  'country': 'Paraguay',
+  'total_cases': 56,
+  'new_cases': 4,
+  'total_deaths': 3,
+  'total_recovered': 1,
+  'active_cases': 52,
+  'serious_cases': 1
+}, {
+  'country': 'Gibraltar',
+  'total_cases': 56,
+  'new_cases': 1,
+  'total_recovered': 14,
+  'active_cases': 42
+}, {
+  'country': 'Liechtenstein',
+  'total_cases': 56,
+  'active_cases': 56
+}, {
+  'country': 'Rwanda',
+  'total_cases': 54,
+  'active_cases': 54
+}, {
+  'country': 'Mayotte',
+  'total_cases': 50,
+  'active_cases': 50
+}, {
+  'country': 'Bangladesh',
+  'total_cases': 48,
+  'total_deaths': 5,
+  'total_recovered': 15,
+  'active_cases': 28,
+  'serious_cases': 1
+}, {
+  'country': 'Monaco',
+  'total_cases': 42,
+  'total_recovered': 1,
+  'active_cases': 41
+}, {
+  'country': 'Kenya',
+  'total_cases': 38,
+  'new_cases': 7,
+  'total_deaths': 1,
+  'total_recovered': 1,
+  'active_cases': 36,
+  'serious_cases': 2
+}, {
+  'country': 'Macao',
+  'total_cases': 34,
+  'total_recovered': 10,
+  'active_cases': 24
+}, {
+  'country': 'Aruba',
+  'total_cases': 33,
+  'total_recovered': 1,
+  'active_cases': 32
+}, {
+  'country': 'Guatemala',
+  'total_cases': 32,
+  'new_cases': 4,
+  'total_deaths': 1,
+  'total_recovered': 4,
+  'active_cases': 27,
+  'serious_cases': 1
+}, {
+  'country': 'Isle of Man',
+  'total_cases': 32,
+  'new_cases': 3,
+  'active_cases': 32
+}, {
+  'country': 'Jamaica',
+  'total_cases': 30,
+  'new_cases': 4,
+  'total_deaths': 1,
+  'total_recovered': 2,
+  'active_cases': 27
+}, {
+  'country': 'French Polynesia',
+  'total_cases': 30,
+  'active_cases': 30
+}, {
+  'country': 'French Guiana',
+  'total_cases': 28,
+  'total_recovered': 6,
+  'active_cases': 22
+}, {
+  'country': 'Zambia',
+  'total_cases': 28,
+  'new_cases': 6,
+  'active_cases': 28
+}, {
+  'country': 'Barbados',
+  'total_cases': 26,
+  'active_cases': 26
+}, {
+  'country': 'Madagascar',
+  'total_cases': 26,
+  'active_cases': 26
+}, {
+  'country': 'Togo',
+  'total_cases': 25,
+  'total_deaths': 1,
+  'total_recovered': 1,
+  'active_cases': 23
+}, {
+  'country': 'Uganda',
+  'total_cases': 23,
+  'active_cases': 23
+}, {
+  'country': 'El Salvador',
+  'total_cases': 19,
+  'new_cases': 6,
+  'active_cases': 19
+}, {
+  'country': 'Mali',
+  'total_cases': 18,
+  'new_cases': 7,
+  'active_cases': 18
+}, {
+  'country': 'Bermuda',
+  'total_cases': 17,
+  'total_recovered': 2,
+  'active_cases': 15
+}, {
+  'country': 'Ethiopia',
+  'total_cases': 16,
+  'total_recovered': 1,
+  'active_cases': 15
+}, {
+  'country': 'Maldives',
+  'total_cases': 16,
+  'total_recovered': 9,
+  'active_cases': 7
+}, {
+  'country': 'New Caledonia',
+  'total_cases': 15,
+  'active_cases': 15
+}, {
+  'country': 'Tanzania',
+  'total_cases': 13,
+  'total_recovered': 1,
+  'active_cases': 12
+}, {
+  'country': 'Djibouti',
+  'total_cases': 12,
+  'active_cases': 12
+}, {
+  'country': 'Equatorial Guinea',
+  'total_cases': 12,
+  'active_cases': 12
+}, {
+  'country': 'Mongolia',
+  'total_cases': 12,
+  'new_cases': 1,
+  'active_cases': 12
+}, {
+  'country': 'Dominica',
+  'total_cases': 11,
+  'active_cases': 11
+}, {
+  'country': 'Saint Martin',
+  'total_cases': 11,
+  'active_cases': 11
+}, {
+  'country': 'Niger',
+  'total_cases': 10,
+  'total_deaths': 1,
+  'active_cases': 9
+}, {
+  'country': 'Bahamas',
+  'total_cases': 10,
+  'total_recovered': 1,
+  'active_cases': 9
+}, {
+  'country': 'Greenland',
+  'total_cases': 10,
+  'total_recovered': 2,
+  'active_cases': 8
+}, {
+  'country': 'Eswatini',
+  'total_cases': 9,
+  'active_cases': 9
+}, {
+  'country': 'Cayman Islands',
+  'total_cases': 8,
+  'total_deaths': 1,
+  'active_cases': 7
+}, {
+  'country': 'Curaçao',
+  'total_cases': 8,
+  'total_deaths': 1,
+  'total_recovered': 2,
+  'active_cases': 5
+}, {
+  'country': 'Guinea',
+  'total_cases': 8,
+  'active_cases': 8
+}, {
+  'country': 'Haiti',
+  'total_cases': 8,
+  'active_cases': 8
+}, {
+  'country': 'Mozambique',
+  'total_cases': 8,
+  'new_cases': 1,
+  'active_cases': 8
+}, {
+  'country': 'Myanmar',
+  'total_cases': 8,
+  'active_cases': 8
+}, {
+  'country': 'Namibia',
+  'total_cases': 8,
+  'total_recovered': 2,
+  'active_cases': 6
+}, {
+  'country': 'Suriname',
+  'total_cases': 8,
+  'active_cases': 8
+}, {
+  'country': 'Gabon',
+  'total_cases': 7,
+  'total_deaths': 1,
+  'active_cases': 6
+}, {
+  'country': 'Zimbabwe',
+  'total_cases': 7,
+  'new_cases': 2,
+  'total_deaths': 1,
+  'active_cases': 6
+}, {
+  'country': 'Antigua and Barbuda',
+  'total_cases': 7,
+  'active_cases': 7
+}, {
+  'country': 'Grenada',
+  'total_cases': 7,
+  'active_cases': 7
+}, {
+  'country': 'Seychelles',
+  'total_cases': 7,
+  'active_cases': 7
+}, {
+  'country': 'Benin',
+  'total_cases': 6,
+  'active_cases': 6
+}, {
+  'country': 'Eritrea',
+  'total_cases': 6,
+  'active_cases': 6
+}, {
+  'country': 'Laos',
+  'total_cases': 6,
+  'active_cases': 6
+}, {
+  'country': 'Cabo Verde',
+  'total_cases': 5,
+  'total_deaths': 1,
+  'active_cases': 4
+}, {
+  'country': 'Guyana',
+  'total_cases': 5,
+  'total_deaths': 1,
+  'active_cases': 4
+}, {
+  'country': 'Sudan',
+  'total_cases': 5,
+  'new_cases': 2,
+  'total_deaths': 1,
+  'active_cases': 4
+}, {
+  'country': 'Nepal',
+  'total_cases': 5,
+  'new_cases': 1,
+  'total_recovered': 1,
+  'active_cases': 4
+}, {
+  'country': 'Fiji',
+  'total_cases': 5,
+  'active_cases': 5
+}, {
+  'country': 'Mauritania',
+  'total_cases': 5,
+  'new_cases': 2,
+  'active_cases': 5
+}, {
+  'country': 'Montserrat',
+  'total_cases': 5,
+  'active_cases': 5
+}, {
+  'country': 'St. Barth',
+  'total_cases': 5,
+  'active_cases': 5
+}, {
+  'country': 'Syria',
+  'total_cases': 5,
+  'active_cases': 5
+}, {
+  'country': 'Nicaragua',
+  'total_cases': 4,
+  'total_deaths': 1,
+  'active_cases': 3
+}, {
+  'country': 'Angola',
+  'total_cases': 4,
+  'active_cases': 4
+}, {
+  'country': 'Congo',
+  'total_cases': 4,
+  'active_cases': 4
+}, {
+  'country': 'Vatican City',
+  'total_cases': 4,
+  'active_cases': 4
+}, {
+  'country': 'Gambia',
+  'total_cases': 3,
+  'total_deaths': 1,
+  'active_cases': 2
+}, {
+  'country': 'Bhutan',
+  'total_cases': 3,
+  'active_cases': 3
+}, {
+  'country': 'CAR',
+  'total_cases': 3,
+  'active_cases': 3
+}, {
+  'country': 'Chad',
+  'total_cases': 3,
+  'active_cases': 3
+}, {
+  'country': 'Liberia',
+  'total_cases': 3,
+  'active_cases': 3
+}, {
+  'country': 'Saint Lucia',
+  'total_cases': 3,
+  'total_recovered': 1,
+  'active_cases': 2
+}, {
+  'country': 'Sint Maarten',
+  'total_cases': 3,
+  'active_cases': 3
+}, {
+  'country': 'Somalia',
+  'total_cases': 3,
+  'active_cases': 3
+}, {
+  'country': 'MS Zaandam',
+  'total_cases': 2,
+  'active_cases': 2
+}, {
+  'country': 'Anguilla',
+  'total_cases': 2,
+  'active_cases': 2
+}, {
+  'country': 'Belize',
+  'total_cases': 2,
+  'active_cases': 2
+}, {
+  'country': 'British Virgin Islands',
+  'total_cases': 2,
+  'active_cases': 2
+}, {
+  'country': 'Guinea-Bissau',
+  'total_cases': 2,
+  'active_cases': 2
+}, {
+  'country': 'Saint Kitts and Nevis',
+  'total_cases': 2,
+  'active_cases': 2
+}, {
+  'country': 'Turks and Caicos',
+  'total_cases': 2,
+  'active_cases': 2
+}, {
+  'country': 'Libya',
+  'total_cases': 1,
+  'active_cases': 1
+}, {
+  'country': 'Papua New Guinea',
+  'total_cases': 1,
+  'active_cases': 1
+}, {
+  'country': 'St. Vincent Grenadines',
+  'total_cases': 1,
+  'active_cases': 1
+}, {
+  'country': 'Timor-Leste',
+  'total_cases': 1,
+  'active_cases': 1
+}, {
+  'country': 'China',
+  'total_cases': 81394,
+  'new_cases': 54,
+  'total_deaths': 3295,
+  'new_deaths': 3,
+  'total_recovered': 74971,
+  'active_cases': 3128,
+  'serious_cases': 886
+}, {
+  'country': 'Total',
+  'total_cases': 629627,
+  'new_cases': 33315,
+  'total_deaths': 28967,
+  'new_deaths': 1626,
+  'total_recovered': 138087,
+  'active_cases': 462573,
+  'serious_cases': 24282
+}]

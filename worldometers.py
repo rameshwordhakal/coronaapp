@@ -52,10 +52,13 @@ def get_statistics():
                     if td.text.strip():
                         stats['serious_cases'] = int(float(td.text.replace(',', '')))
 
-            if index == 17:
-                if td.text != "Tot\xa0Cases/1M pop":
-                    if td.text.strip():
-                        stats['tot_cases'] = int(float(td.text.replace(',', '')))
+            # if index == 17:
+            #     if td.text != "Tot\xa0Cases/1M pop":
+            #         if td.text.strip():
+            #             stats['tot_cases'] = int(float(td.text.replace(',', '')))
         countries.append(stats)
+    return_list = list(filter(None, countries))
+    print(return_list)
+    return return_list
 
-    return list(filter(None, countries))
+get_statistics()

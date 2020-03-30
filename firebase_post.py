@@ -2,13 +2,9 @@ from firebase import firebase
 import firebase_admin
 from firebase_admin import credentials, firestore
 import datetime, pytz
-from worldometers import get_statistics
-from countries import countries
+from mar29 import countries
 
-# countries = get_statistics()
-print("Countries: ", countries)
-
-cred = credentials.Certificate("./covid-19-firebase-adminsdk.json")
+cred = credentials.Certificate("../covid-19-firebase-adminsdk.json")
 firebase_admin.initialize_app(cred)
 
 db = firestore.client()
@@ -30,8 +26,8 @@ for country_dict in countries:
     post_dict['active_cases'] = country_dict['active_cases']
   if 'serious_cases' in country_dict:
     post_dict['serious_cases'] = country_dict['serious_cases']
-  if 'tot_cases' in country_dict:
-    post_dict['tot_cases'] = country_dict['tot_cases']
+  # if 'tot_cases' in country_dict:
+  #   post_dict['tot_cases'] = country_dict['tot_cases']
 
   db_document = db_collection.document(country_dict['country'])
   db_document.set(post_dict)
