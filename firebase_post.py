@@ -2,14 +2,16 @@ from firebase import firebase
 import firebase_admin
 from firebase_admin import credentials, firestore
 import datetime, pytz
-from mar29 import countries
 from os import environ
+from worldometers import get_statistics
 
 cred = credentials.Certificate(environ.get('FIREBASE_TOKEN'))
 firebase_admin.initialize_app(cred)
 
 db = firestore.client()
 db_collection = db.collection(u'statistics')
+
+countries = get_statistics()
 
 for country_dict in countries:
   post_dict = {}
@@ -27,8 +29,6 @@ for country_dict in countries:
     post_dict['active_cases'] = country_dict['active_cases']
   if 'serious_cases' in country_dict:
     post_dict['serious_cases'] = country_dict['serious_cases']
-  # if 'tot_cases' in country_dict:
-  #   post_dict['tot_cases'] = country_dict['tot_cases']
 
   db_document = db_collection.document(country_dict['country'])
   db_document.set(post_dict)

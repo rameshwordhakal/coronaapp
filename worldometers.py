@@ -5,7 +5,8 @@ def get_statistics():
     url = "https://www.worldometers.info/coronavirus/"
     r = requests.get(url)
     soup = BeautifulSoup(r.content, 'html.parser')
-    trs = soup.findAll('tr', attrs = {'style': ""})
+    table = soup.find('table', id="main_table_countries_today")
+    trs = table.findAll('tr', attrs = {'style': ""})
 
     countries = []
 
@@ -52,13 +53,6 @@ def get_statistics():
                     if td.text.strip():
                         stats['serious_cases'] = int(float(td.text.replace(',', '')))
 
-            # if index == 17:
-            #     if td.text != "Tot\xa0Cases/1M pop":
-            #         if td.text.strip():
-            #             stats['tot_cases'] = int(float(td.text.replace(',', '')))
         countries.append(stats)
     return_list = list(filter(None, countries))
-    print(return_list)
     return return_list
-
-get_statistics()
